@@ -1,0 +1,141 @@
+body {
+    margin: 0px;
+    border: 0px;
+    color: gray;
+}
+
+#welcome {
+    width: 100%;
+    height: 50px;
+    border-bottom-style: solid;
+    border-bottom-color: gainsboro;
+}
+
+.avatar {
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+.welcomeText{
+    text-align: right;
+}
+
+#sidebar {
+    width: 180px;
+    height: 500px;
+    background-color: lightgray;
+    border-radius: 25px;
+    margin: 15px 10px 15px 10px;
+    border-color: gainsboro;
+    overflow-x: hidden;
+    padding-top: 16px;
+    float: left;
+}
+
+.icons{
+   width: 32px;
+   height: 32px;
+}
+
+
+/* Style sidebar links */
+#sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+  }
+  
+/* Style links on mouse-over */
+  #sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+/* Style the main content */
+  #main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+  }
+  
+/* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+  @media screen and (max-height: 450px) {
+    #sidebar {padding-top: 15px;}
+    #sidebar a {font-size: 18px;}
+  }
+
+#header {
+    width: 1000px;
+    border-bottom-style: solid;
+    border-bottom-color: gainsboro;
+    margin: 30px 30px 30px 30px;
+    display: flex;
+}
+
+#header.h1 {
+    float: left;
+}
+
+
+#lead {
+    float: right;
+    width: auto;
+    font-size: 12px;
+}
+
+
+#date {
+    display: inline-block;
+    margin:0 auto;
+}
+
+#wrapper {
+    float: right;
+}
+
+table, th, td {
+  border: 1px solid gainsboro;
+}
+
+table{
+  border-radius: 10px;
+  padding: 3px;
+}
+
+th, td {
+  padding: 6px;
+  
+
+}
+
+td{
+  background-color: gainsboro;
+}
+
+th{
+  background-color:forestgreen;
+  width: 55px;
+  color: white;
+
+}
+
+tr{
+  height: 40px;
+}
+
+#assignedLeads {
+  float: right;
+  width: auto;
+  font-size: 12px;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+}
+
+#leadData {
+  
+}
