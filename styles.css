@@ -134,8 +134,22 @@ tr{
 label {
   display: inline-block;
   width: 150px;
+  padding: 0px 5px 5px 0;
 }
 
-#leadData {
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input {
+  display: inline-block;
   
 }
